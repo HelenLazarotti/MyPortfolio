@@ -21,4 +21,4 @@ function reveal(){
             behavior:"smooth"
         })
     }
-    document.querySelector("#seta").onclick() = scrollToTop;
+    document.querySelector("#seta").onclick = scrollToTop;
