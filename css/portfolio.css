@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+
+    main{
+        text-align: center;
+        margin-top: 50px;
+    }
+    body{
+    background-color: #101728;
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Spectral SC', serif;
+    
+  }
+    header{
+
+        background-color: #260E69;
+        padding: 15px;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav > a{
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        margin: 30px;
+        transition: all 2s;
+        
+    }
+
+   nav> a:hover{
+        transform: rotateZ(360deg);
+        color: #FF3C5F;
+    }
+
+    #logotipo{
+        float: left;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h3{
+        text-align: center;
+    }
+    button{
+        background-image: linear-gradient(to right, #9340FF, #FF3C5F);
+        padding: 10px;
+        font-size: 15px;
+        border-style: none;
+        border-radius: 8px;
+        
+    }
+    button > a{
+        color: black;
+        font-family: 'Spectral SC', serif;
+    }
+    .principal{
+        margin: auto auto;
+        width: auto;
+    }
+    .divFilho, .projects, .skills, .aboutMe{
+        display: inline-block;
+        margin: 50px;
+    }
+    .projects{
+        opacity: 1;
+        background-color: #9340FF;
+        width: 300px;
+        padding: 10px;
+        border-radius: 8px;
+        
+    }
+    .projects > p{
+        font-size: 18px;
+        color: black;
+    }
+    .projects > a {
+        font-size: 16px;
+        color: black;
+        background-color: white;
+        border-radius: 8px;
+        padding: 5px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .projects > a:hover{
+       background-color: #101728;
+       color: white;
+        
+    }
+    button > a{
+        text-decoration: none;
+    }
+    .reveal{
+        margin-top: 5%;
+        transform: translateY(144px);
+        opacity: 0;
+        transition: 2s all ease;
+    }
+    .reveal.active{
+        transform: translateY(0);
+        opacity: 1;
+        }
+    .skills{
+        background-color: #9340ff9d;
+        text-align: center;
+        padding: 30px;
+        text-align: left;
+        border-radius: 8px;
+        font-size: 18px;
+       
+    }
+   
+    .skills:hover{
+        background-color: #ff3c60c4;
+    }
+    .aboutMe > img{
+        border-radius: 300px;
+        opacity: 0.8;
+    }
+    .aboutMe > h2{
+        color: #daa000;
+    }
+    .aboutMe > a{
+        margin: 10px;
+        float: left;
+        color: #daa000;
+        text-decoration: none;
+    }
+    .aboutMe > a:hover{
+        color: #FF3C5F;
+        text-decoration: underline;
+    }
+    .myStory{
+        width: 500px;
+    }
+    .myStory > p{
+        text-align: justify;
+        opacity: 0.6;
+        font-size: 16px;
+    }
+    #line{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border: 0;
+        height: 2px;
+        background-image: linear-gradient(to right, transparent,#ff3c607a, transparent); 
+  }
+  #seta{
+    margin-bottom: 60px;
+    margin-right: 10px;
+    float: right;
+    background-color: #FF3C5F;
+    border-radius: 80px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  footer{
+    background-color: #260E69;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+  }
+  footer > a{
+    margin: 10px;
+    align-items: center;
+
+  }
