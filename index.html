@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portifolio</title>
   <link rel="shortcut icon" href="img/flower.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
+
 <body>
   <header>
     <nav>
@@ -26,7 +27,7 @@
             <h1>“There are many things <br> in this world that need to <br> be created.”</h1>
 
             <button>
-                <a href="#">Projects</a>
+                <a href="#myProjects">Projects</a>
             </button>
         </div>
 
@@ -35,9 +36,10 @@
         </div>
 
         <div id="line"></div>
+        <span id="myProjects"></span>
 
-        <div class="segundaDiv">
-            <h2>My Projects</h2>
+        <div class="reveal segundaDiv">
+            <h2 >My Projects</h2>
 
             <div class="projects">
                 <h3>Quiz</h3>
@@ -47,7 +49,7 @@
 
             <div class="projects">
                 <h3>Temperature</h3>
-                <p>This is a temperature converter from Celsius to Fahrenheit and Kelvin.</p>
+                <p>Converter from Celsius to Fahrenheit and Kelvin.</p>
                 <a href="#">Open</a>
             </div>
 
@@ -60,11 +62,14 @@
             
         </div>
         <button><a href="#">See More</a></button>
+        
         <div id="line"></div>
+        <span id="skills"></span>
 
-        <div class="terceiraDiv">
+        <div class="reveal terceiraDiv" id="skills">
+            <h2>My Skills</h2>
             <div class="skills">
-                <img src="img/programming.png" alt="" width="200px">
+                <img src="img/programming.png" alt="" width="150px">
                 <h3>Front-End</h3>
                 <ul>
                     <li>HTML5 & CSS</li>
@@ -75,16 +80,17 @@
             </div>
 
             <div class="skills">
-                <img src="img/computer.png" alt="" width="200px">
+                <img src="img/computer.png" alt="" width="150px">
                 <h3>Back-End</h3>
                 <ul>
                     <li>Python</li>
                     <li>PostgreeSQL</li>
+                    
                 </ul>
             </div>
 
             <div class="skills">
-                <img src="img/framework.png" alt="" width="200px">
+                <img src="img/framework.png" alt="" width="150px">
                 <h3>Others Skills</h3>
                 <ul>
                     <li>SCRUM</li>
@@ -94,14 +100,16 @@
                 </ul>
             </div>
         </div>
-        <div id="line"></div>
 
-        <div class="quartaDiv">
+        <div id="line"></div>
+        <span id="aboutMe"></span>
+
+        <div class="reveal quartaDiv">
             <div class="aboutMe">
                 <img src="img/2.png" alt="eu" width="300px">
             </div>
 
-            <div class="myStory aboutMe">
+            <div class="myStory aboutMe" id="aboutMe">
                 <h2>About Me</h2>
                 <p>Hi! I am a Systems Analysis and Development student at UCS. I'm specializing in Front-End Development. Well, let's see, there is a world of possibilities and new tools to be created, to automate simple processes (or not) of our day-to-day. <br>I'm a little curious to know how things work and are created, which makes me more and more fascinated every day and with the desire to build huge changes in the lives of other people, companies and places. <br><strong>Plan, Prototyping, Documenting, Develop</strong>, such an amazing and challenging process that I am absolutely passionate about.</p>
 
@@ -112,9 +120,13 @@
         </div>
 
     </div>
+
+    <img src="img/seta.png" alt="" width="30px" id="seta">
+   
   </main>
 
-  <footer>
+  <span id="findMe"></span>
+  <footer id="findMe">
     <a href="https://www.instagram.com/helen_lazarotti/" target="_blank"><img src="img/instagram.png" alt="" width="30px"></a>
 
     <a href="https://github.com/HelenLazarotti" target="_blank"><img src="img/github.png" alt="" width="30px"></a>
