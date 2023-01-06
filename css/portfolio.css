@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap');
 
     main{
         text-align: center;
@@ -9,7 +10,7 @@
     color: white;
     margin: 0;
     font-size: 20px;
-    font-family: 'Spectral SC', serif;
+    font-family: 'Bellota', cursive;
     
   }
     header{
@@ -39,7 +40,7 @@
         float: left;
     }
     h1{
-        font-size: 45px;
+        font-size: 40px;
     }
     h3{
         text-align: center;
@@ -57,55 +58,128 @@
         font-family: 'Spectral SC', serif;
     }
     .principal{
-        margin: auto auto;
-        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .divFilho, .projects, .skills, .aboutMe{
+    .content_start{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .start_info img{
+        width: 20em;
+        margin: 2em;
+    }
+    /*.divFilho, .projects, .aboutMe{
         display: inline-block;
         margin: 50px;
+    }*/
+    .div_projects{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    .projects_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .projects{
         opacity: 1;
         background-color: #9340FF;
-        width: 300px;
-        padding: 10px;
+        width: 15em;
+        padding: 1em;
         border-radius: 8px;
+        margin: 2em;
         
     }
-    .projects > p{
+    .projects p{
         font-size: 18px;
         color: black;
     }
-    .projects > a {
+    .projects  a {
         font-size: 16px;
         color: black;
         background-color: white;
-        border-radius: 8px;
-        padding: 5px;
+        border-radius: 0.5em;
+        padding: 0.5em;
         float: left;
-        margin-bottom: 10px;
     }
     .projects > a:hover{
        background-color: #101728;
        color: white;
         
     }
-    .projects > img{
-        width: 300px;
-        margin: 0;
-        padding: 0;
-        border-radius: 8px;
+    .projects div img{
+        width: 10em;
     }
     .divSeeMore{
-        margin-bottom: 0;
+        margin-top: 1em;
     }
-    #meUp{
-        filter: drop-shadow(2px 2px 1px #9340ff9d);
+    .divSeeMore div img{
+        width: 6em;
     }
+    .mySkills_div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .skills_box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #9340ff9d;
+        width: 10em;
+        height: 16em;
+        padding: 1.5em;
+        text-align: left;
+        border-radius: 8px;
+        font-size: 18px;
+        margin: 2em;
+    }
+    .skills i{
+     font-size: 5em;
+    }
+    .skills h3{
+     color:#101728;
+    }
+     .skills:hover{
+         background-color: #ff3c60c4;
+     }
     button > a{
         text-decoration: none;
     }
-    .reveal{
+    .aboutMe_div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+    }
+    .aboutMe p{
+        text-align: center;
+        opacity: 0.6;
+        font-size: 16px;
+        width: 22em;
+    }
+    .aboutMe > img{
+        width: 16em;
+        border-radius: 50%;
+        margin: 2em;
+        opacity: 0.8;
+    }
+    /*.reveal{
         margin-top: 5%;
         transform: translateY(144px);
         opacity: 0;
@@ -114,53 +188,26 @@
     .reveal.active{
         transform: translateY(0);
         opacity: 1;
-        }
-    .skills{
-        background-color: #9340ff9d;
-        text-align: center;
-        padding: 30px;
-        text-align: left;
-        border-radius: 8px;
-        font-size: 18px;
-       
-    }
-   
-    .skills:hover{
-        background-color: #ff3c60c4;
-    }
-    .aboutMe > img{
-        border-radius: 300px;
-        opacity: 0.8;
-    }
+        }*/
     .aboutMe > h2{
-        color: #daa000;
+        color: #15b5d1;
     }
     .aboutMe > a{
-        margin: 10px;
-        float: left;
-        color: #daa000;
+        margin: 1em;
+        color: #15b5d1;
         text-decoration: none;
     }
     .aboutMe > a:hover{
         color: #FF3C5F;
         text-decoration: underline;
     }
-    .myStory{
-        min-width: 200px;
-        max-width: 500px;
-    }
-    .myStory > p{
-        text-align: justify;
-        opacity: 0.6;
-        font-size: 16px;
-    }
-    #line{
+    /*#line{
         margin-top: 30px;
         margin-bottom: 30px;
         border: 0;
         height: 2px;
         background-image: linear-gradient(to right, transparent,#ff3c607a, transparent); 
-  }
+  }*/
   #seta{
     margin-bottom: 60px;
     margin-right: 10px;
