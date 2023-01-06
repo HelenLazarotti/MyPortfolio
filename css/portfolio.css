@@ -1,214 +1,244 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap');
 
-    main{
-        text-align: center;
-        margin-top: 50px;
-    }
-    body{
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+body {
     background-color: #101728;
     color: white;
     margin: 0;
     font-size: 20px;
     font-family: 'Bellota', cursive;
-    
-  }
-    header{
 
-        background-color: #260E69;
-        padding: 15px;
-        margin: 0;
-        text-align: center;
-    }
+}
 
-    nav > a{
-        text-align: center;
-        font-size: 18px;
-        text-decoration: none;
-        color: white;
-        margin: 30px;
-        transition: all 2s;
-        
-    }
+header {
 
-   nav> a:hover{
-        transform: rotateZ(360deg);
-        color: #FF3C5F;
-    }
+    background-color: #260E69;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
 
-    #logotipo{
-        float: left;
-    }
-    h1{
-        font-size: 40px;
-    }
-    h3{
-        text-align: center;
-    }
-    button{
-        background-image: linear-gradient(to right, #9340FF, #FF3C5F);
-        padding: 10px;
-        font-size: 15px;
-        border-style: none;
-        border-radius: 8px;
-        
-    }
-    button > a{
-        color: black;
-        font-family: 'Spectral SC', serif;
-    }
-    .principal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .content_start{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .start_info img{
-        width: 20em;
-        margin: 2em;
-    }
-    /*.divFilho, .projects, .aboutMe{
-        display: inline-block;
-        margin: 50px;
-    }*/
-    .div_projects{
-        display: flex;
-        flex-direction: column;
-        margin-top: 2em;
-    }
-    .projects_box{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .projects{
-        opacity: 1;
-        background-color: #9340FF;
-        width: 15em;
-        padding: 1em;
-        border-radius: 8px;
-        margin: 2em;
-        
-    }
-    .projects p{
-        font-size: 18px;
-        color: black;
-    }
-    .projects  a {
-        font-size: 16px;
-        color: black;
-        background-color: white;
-        border-radius: 0.5em;
-        padding: 0.5em;
-        float: left;
-    }
-    .projects > a:hover{
-       background-color: #101728;
-       color: white;
-        
-    }
-    .projects div img{
-        width: 10em;
-    }
-    .divSeeMore{
-        margin-top: 1em;
-    }
-    .divSeeMore div img{
-        width: 6em;
-    }
-    .mySkills_div{
-        display: flex;
-        flex-direction: column;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
-    .skills_box{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .skills{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #9340ff9d;
-        width: 10em;
-        height: 16em;
-        padding: 1.5em;
-        text-align: left;
-        border-radius: 8px;
-        font-size: 18px;
-        margin: 2em;
-    }
-    .skills i{
-     font-size: 5em;
-    }
-    .skills h3{
-     color:#101728;
-    }
-     .skills:hover{
-         background-color: #ff3c60c4;
-     }
-    button > a{
-        text-decoration: none;
-    }
-    .aboutMe_div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: 2em;
-    }
-    .aboutMe p{
-        text-align: center;
-        opacity: 0.6;
-        font-size: 16px;
-        width: 22em;
-    }
-    .aboutMe > img{
-        width: 16em;
-        border-radius: 50%;
-        margin: 2em;
-        opacity: 0.8;
-    }
-    /*.reveal{
-        margin-top: 5%;
-        transform: translateY(144px);
-        opacity: 0;
-        transition: 2s all ease;
-    }
-    .reveal.active{
-        transform: translateY(0);
-        opacity: 1;
-        }*/
-    .aboutMe > h2{
-        color: #15b5d1;
-    }
-    .aboutMe > a{
-        margin: 1em;
-        color: #15b5d1;
-        text-decoration: none;
-    }
-    .aboutMe > a:hover{
-        color: #FF3C5F;
-        text-decoration: underline;
-    }
-    /*#line{
+nav>a {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    transition: all 2s;
+
+}
+
+nav>a:hover {
+    transform: rotateZ(360deg);
+    color: #FF3C5F;
+}
+
+#logotipo {
+    float: left;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    background-image: linear-gradient(to right, #9340FF, #FF3C5F);
+    padding: 10px;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 8px;
+
+}
+
+button>a {
+    color: black;
+    font-family: 'Spectral SC', serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.start_info img {
+    width: 20em;
+    margin: 2em;
+}
+
+.div_projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.projects_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects {
+    opacity: 1;
+    background-color: #9340FF;
+    width: 15em;
+    padding: 1em;
+    border-radius: 8px;
+    margin: 2em;
+
+}
+
+.projects p {
+    font-size: 18px;
+    color: black;
+}
+
+.projects a {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    float: left;
+}
+
+.projects>a:hover {
+    background-color: #101728;
+    color: white;
+
+}
+
+.projects div img {
+    width: 10em;
+}
+
+.divSeeMore {
+    margin-top: 1em;
+}
+
+.divSeeMore div img {
+    width: 6em;
+}
+
+.mySkills_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.skills_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9340ff9d;
+    width: 10em;
+    height: 16em;
+    padding: 1.5em;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 2em;
+}
+
+.skills i {
+    font-size: 5em;
+}
+
+.skills h3 {
+    color: #101728;
+}
+
+.skills:hover {
+    background-color: #ff3c60c4;
+}
+
+button>a {
+    text-decoration: none;
+}
+
+.aboutMe_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.aboutMe p {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 16px;
+    width: 22em;
+}
+
+.aboutMe>img {
+    width: 16em;
+    border-radius: 50%;
+    margin: 2em;
+    opacity: 0.8;
+}
+
+.reveal {
+    margin-top: 5%;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.aboutMe>h2 {
+    color: #15b5d1;
+}
+
+.aboutMe>a {
+    margin: 1em;
+    color: #15b5d1;
+    text-decoration: none;
+}
+
+.aboutMe>a:hover {
+    color: #FF3C5F;
+    text-decoration: underline;
+}
+
+/*#line{
         margin-top: 30px;
         margin-bottom: 30px;
         border: 0;
         height: 2px;
         background-image: linear-gradient(to right, transparent,#ff3c607a, transparent); 
   }*/
-  #seta{
+#seta {
     margin-bottom: 60px;
     margin-right: 10px;
     float: right;
@@ -216,8 +246,9 @@
     border-radius: 80px;
     padding: 10px;
     cursor: pointer;
-  }
-  footer{
+}
+
+footer {
     background-color: #260E69;
     padding: 5px;
     text-align: center;
@@ -225,9 +256,10 @@
     position: fixed;
     bottom: 0;
 
-  }
-  footer > a{
+}
+
+footer>a {
     margin: 10px;
     align-items: center;
 
-  }
+}
